@@ -35,7 +35,7 @@ const Section = () => {
         <img className="md:block hidden" src={compimg2} alt="" />
         <div className="flex md:items-start justify-center items-center">
         </div>
-        <div className="md:p-[50px_60px] w-[70%]">
+        <div className="md:p-[50px_60px] md:w-[50%] w-[70%]">
           <h2 className="text-2xl font-bold  mb-6 text-center md:text-start">FAQ</h2>
           {error && <p className="text-red-500">{error}</p>}
           {quotes.map((quote, index) => (
